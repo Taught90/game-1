@@ -126,7 +126,7 @@ body{
     display: none;
     width: 240px;
     top: 20vh;
-    left: 0;
+    left: 10vw;
 }
 .alternative-6{
     display: none;
@@ -184,5 +184,8 @@ button:hover{
     .no-2{
         top: 55vh;
         right: 10vw;
+    }
+    .alternative-2{
+        top: 0;
     }
 }
