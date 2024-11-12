@@ -1,3 +1,9 @@
+const con0 = document.querySelector(".container-0")
+const click1 = document.querySelector(".click-1")
+const click2 = document.querySelector(".click-2")
+const click3 = document.querySelector(".click-3")
+const click4 = document.querySelector(".click-4")
+const click5 = document.querySelector(".click-5")
 const con1 = document.querySelector(".container-1")
 const y1 = document.querySelector(".yes-1");
 const n1 = document.querySelector(".no-1");
@@ -12,8 +18,24 @@ const alt4 = document.querySelector(".alternative-4")
 const alt5 = document.querySelector(".alternative-5")
 const alt6 = document.querySelector(".alternative-6")
 
+click1.addEventListener('click', () => {
+    click2.style.display = "block";
+})
+click2.addEventListener('click', () => {
+    click3.style.display = "block";
+})
+click3.addEventListener('click', () => {
+    click4.style.display = "block";
+})
+click4.addEventListener('click', () => {
+    click5.style.display = "block";
+})
+click5.addEventListener('click', () => {
+    con1.style.display = "flex";
+    con0.style.display = "none";
+})
 y1.addEventListener('click', () => {
-    con2.style.display = "block";
+    con2.style.display = "flex";
     con1.style.display = "none";
 })
 n1.addEventListener('click', () => {
