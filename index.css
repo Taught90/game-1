@@ -167,3 +167,22 @@ button:hover{
         scale: 1.05;
     }        
 }
+
+@media (max-width:600px) {
+    .yes-1{
+        top: 55vh;
+        left: 10vw;
+    }
+    .no-1{
+        top: 55vh;
+        right: 10vw;
+    }
+    .yes-2{
+        top: 55vh;
+        left: 10vw;
+    }
+    .no-2{
+        top: 55vh;
+        right: 10vw;
+    }
+}
